@@ -193,8 +193,8 @@ export default function Home() {
                           <a href="#">
                             <span className="sr-only">Workflow</span>
                             <img
-                              className="h-8 w-auto sm:h-10"
-                              src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                              className="h-12 w-auto sm:h-10"
+                              src="https://cdn-images.threadless.com/threadless-media/artist_shops/shops/zero81/products/1102219/shirt-1564739864-5849634e62243f3be6f3073273e0ac4f.png?v=3&d=eyJvbmx5X21ldGEiOiBmYWxzZSwgImZvcmNlIjogZmFsc2UsICJvcHMiOiBbWyJ0cmltIiwgW2ZhbHNlLCBmYWxzZV0sIHt9XSwgWyJyZXNpemUiLCBbXSwgeyJ3aWR0aCI6IDk5Ni4wLCAiYWxsb3dfdXAiOiBmYWxzZSwgImhlaWdodCI6IDk5Ni4wfV0sIFsiY2FudmFzX2NlbnRlcmVkIiwgWzEyMDAsIDEyMDBdLCB7ImJhY2tncm91bmQiOiAiZmZmZmZmIn1dLCBbInJlc2l6ZSIsIFs4MDBdLCB7fV0sIFsiY2FudmFzX2NlbnRlcmVkIiwgWzgwMCwgODAwLCAiI2ZmZmZmZiJdLCB7fV0sIFsiZW5jb2RlIiwgWyJqcGciLCA4NV0sIHt9XV19"
                               alt="icon"
                             />
                           </a>
@@ -221,7 +221,7 @@ export default function Home() {
                         ))}
                         <a
                           href="#"
-                          className="font-medium text-indigo-600 hover:text-indigo-500"
+                          className="font-medium text-red-600 hover:text-red-800"
                         >
                           Log in
                         </a>
@@ -249,7 +249,7 @@ export default function Home() {
                           <div>
                             <img
                               className="h-8 w-auto"
-                              src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                              src="https://netflixjunkie.com/wp-content/uploads/2021/12/maxresdefault-12-1140x600.jpg"
                               alt=""
                             />
                           </div>
@@ -273,7 +273,7 @@ export default function Home() {
                         </div>
                         <a
                           href="#"
-                          className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
+                          className="block w-full px-5 py-3 text-center font-medium text-red-600 bg-gray-50 hover:bg-gray-100"
                         >
                           Log in
                         </a>
@@ -288,7 +288,7 @@ export default function Home() {
               <div className="sm:text-center lg:text-left">
                 <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                   <span className="block xl:inline">Data to enrich your</span>{" "}
-                  <span className="block text-indigo-600 xl:inline">
+                  <span className="block text-red-800 xl:inline">
                     online business
                   </span>
                 </h1>
@@ -300,18 +300,10 @@ export default function Home() {
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                   <div className="rounded-md shadow">
                     <Link href="/step-1">
-                      <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
+                      <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-800 hover:bg-red-700  md:py-4 md:text-lg md:px-10">
                         Get started
                       </a>
                     </Link>
-                  </div>
-                  <div className="mt-3 sm:mt-0 sm:ml-3">
-                    <a
-                      href="#"
-                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
-                    >
-                      Live demo
-                    </a>
                   </div>
                 </div>
               </div>
@@ -321,7 +313,7 @@ export default function Home() {
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
           <img
             className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-            src="https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2850&q=80"
+            src="https://www.denofgeek.com/wp-content/uploads/2021/09/money-heist-ending.jpeg?fit=1200%2C675"
             alt=""
           />
         </div>
@@ -329,7 +321,7 @@ export default function Home() {
       <div className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:text-center">
-            <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">
+            <h2 className="text-base text-red-600 font-semibold tracking-wide uppercase">
               Transactions
             </h2>
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
@@ -346,7 +338,7 @@ export default function Home() {
               {features.map((feature) => (
                 <div key={feature.name} className="relative">
                   <dt>
-                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-red-800 text-white">
                       <feature.icon className="h-6 w-6" aria-hidden="true" />
                     </div>
                     <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
@@ -369,9 +361,7 @@ export default function Home() {
               <h2 className="text-3xl font-extrabold tracking-tight sm:text-4xl">
                 Meet our team
               </h2>
-              <p className="text-xl text-gray-500">
-                
-              </p>
+              <p className="text-xl text-gray-500"></p>
             </div>
             <ul className="mx-auto space-y-16 sm:grid sm:grid-cols-2 sm:gap-16 sm:space-y-0 lg:grid-cols-3 lg:max-w-5xl">
               {people.map((person) => (
@@ -384,9 +374,9 @@ export default function Home() {
                     />
                     <div className="space-y-2">
                       <div className="text-lg leading-6 font-medium space-y-1">
-                        <h3>{person.name}</h3>
-                        <p className="text-indigo-600">{person.role}</p>
-                        <p className="text-indigo-800">{person.workplace}</p>
+                        <h3 className="text-red-800">{person.name}</h3>
+                        <p className="text-black">{person.role}</p>
+                        <p className="text-black">{person.workplace}</p>
                       </div>
                       <ul className="flex justify-center space-x-5">
                         <li>
@@ -464,7 +454,7 @@ export default function Home() {
                 Can’t find the answer you’re looking for? Reach out to our{" "}
                 <a
                   href="#"
-                  className="font-medium text-indigo-600 hover:text-indigo-500"
+                  className="font-medium text-red-600 hover:text-red-500"
                 >
                   customer support
                 </a>{" "}

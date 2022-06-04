@@ -16,7 +16,7 @@ export default function Step1() {
           </div>
           <div className="text-center py-4">
             <Link href="/step-2">
-              <a className="inline-block py-4 px-8  bg-blue-600 hover:bg-blue-700 focus:ring-blue-500 focus:ring-offset-blue-200 text-white transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 mx-auto">
+              <a className="inline-block py-4 px-8  bg-red-800 hover:bg-red-700 focus:ring-red-500 focus:ring-offset-red-200 text-white transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2 mx-auto">
                 Идентификация через OneID
               </a>
             </Link>
