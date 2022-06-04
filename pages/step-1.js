@@ -5,7 +5,7 @@ export default function Step1() {
   return (
     <>
       <div className="bg-gray-300">
-        <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white px-8 py-6 border rounded-md">
+        <div className="shadow-lg absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white px-8 py-6 border rounded-md">
           <h1 className="text-2xl font-semibold">Идентификация через OneID</h1>
           <div className="text-center my-6 mx-auto">
             <img
