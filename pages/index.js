@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { Fragment } from "react";
 import { Popover, Transition } from "@headlessui/react";
 import {
@@ -8,6 +9,8 @@ import {
   LightningBoltIcon,
   AnnotationIcon,
 } from "@heroicons/react/outline";
+import Head from "next/head";
+import Link from "next/link";
 
 const navigation = [
   { name: "Product", href: "#" },
@@ -155,6 +158,9 @@ const footerNavigation = [
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Bella Ciao</title>
+      </Head>
       <div className="relative bg-white overflow-hidden">
         <div className="max-w-7xl mx-auto">
           <div className="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
@@ -183,6 +189,7 @@ export default function Home() {
                             <img
                               className="h-8 w-auto sm:h-10"
                               src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                              alt="icon"
                             />
                           </a>
                           <div className="-mr-2 flex items-center md:hidden">
@@ -286,12 +293,11 @@ export default function Home() {
                 </p>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                   <div className="rounded-md shadow">
-                    <a
-                      href="#"
-                      className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
-                    >
-                      Get started
-                    </a>
+                    <Link href="/step-1">
+                      <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10">
+                        Get started
+                      </a>
+                    </Link>
                   </div>
                   <div className="mt-3 sm:mt-0 sm:ml-3">
                     <a
