@@ -151,7 +151,7 @@ export default function Step2() {
                         static
                         className="absolute z-10 mt-1 w-full bg-white shadow-lg max-h-60 rounded-md py-1 text-base ring-1 ring-black ring-opacity-5 overflow-auto focus:outline-none sm:text-sm"
                       >
-                        {creditTypes.map((person) => (
+                        {creditDurations.map((person) => (
                           <Listbox.Option
                             key={person.id}
                             className={({ active }) =>
@@ -215,7 +215,7 @@ export default function Step2() {
                 setCreditSum(e.target.value);
               }}
               placeholder="10 000 000"
-              className="shadow-sm focus:ring-red-500 fucus:outline-none focus-visible:border-red-500  focus:border-red-500  w-full sm:text-sm border-gray-300 rounded-md py-2 px-3"
+              className="mt-1 shadow-sm focus:ring-red-500 fucus:outline-none focus-visible:border-red-500  focus:border-red-500  w-full sm:text-sm border-gray-300 rounded-md py-2 px-3"
             />
           </div>
           <div className="text-center py-4">
