@@ -10,7 +10,6 @@ import {
   AnnotationIcon,
 } from "@heroicons/react/outline";
 import Head from "next/head";
-import Link from "next/link";
 
 const navigation = [
   { name: "Product", href: "#" },
@@ -49,7 +48,7 @@ const features = [
 const people = [
   {
     name: "Abdullayev Bahodir",
-    role: "Middle Software Engineer",
+    role: "Middle Frontend Engineer",
     workplace: " EPAM SYSTEMS",
     imageUrl: "/bahodir.jpg",
     twitterUrl: "#",
