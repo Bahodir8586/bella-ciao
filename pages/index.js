@@ -21,27 +21,27 @@ const navigation = [
 
 const features = [
   {
-    name: "Competitive exchange rates",
+    name: "List of all credits in Uzbekistan",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+      "Access to constantly updating database of all credits of all banks in Uzbekistan. Find the most one that suits best for you",
     icon: GlobeAltIcon,
   },
   {
-    name: "No hidden fees",
+    name: "Up to date information",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+      "Our moderators every day update our database. You will always have the latest information about the credits and their policies",
     icon: ScaleIcon,
   },
   {
-    name: "Transfers are instant",
+    name: "Full explanation",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+      "You will get the full explanation about the results of both suitable and not suitable credits.",
     icon: LightningBoltIcon,
   },
   {
-    name: "Mobile notifications",
+    name: "User friendly interface",
     description:
-      "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste dolor cupiditate blanditiis ratione.",
+      "iFin application is understandable and easy to use for everyone. You can use both mobile and web application",
     icon: AnnotationIcon,
   },
 ];
@@ -49,10 +49,9 @@ const features = [
 const people = [
   {
     name: "Abdullayev Bahodir",
-    role: "Senior Software Engineer",
+    role: "Middle Software Engineer",
     workplace: " EPAM SYSTEMS",
-    imageUrl:
-      "https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+    imageUrl: "/bahodir.jpg",
     twitterUrl: "#",
     linkedinUrl: "#",
     instagramUrl: "#",
@@ -60,9 +59,8 @@ const people = [
   {
     name: "Jalolov Mironshokh",
     role: "Senior Android Developer",
-    workplace: "NEOTECH",
-    imageUrl:
-      "https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+    workplace: "NeoTech Group",
+    imageUrl: "/mironshokh.jpg",
     twitterUrl: "#",
     linkedinUrl: "#",
     instagramUrl: "#",
@@ -70,9 +68,8 @@ const people = [
   {
     name: "Nosirov Mirfayz",
     role: "Senior Backend Developer",
-    workplace: "TURON TELECOM",
-    imageUrl:
-      "https://images.unsplash.com/photo-1517365830460-955ce3ccd263?ixlib=rb-=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+    workplace: "iTv.uz",
+    imageUrl: "/mirfayz.jpg",
     twitterUrl: "#",
     linkedinUrl: "#",
     instagramUrl: "#",
@@ -81,19 +78,19 @@ const people = [
 
 const faqs = [
   {
-    question: "How do you make holy water?",
+    question: "How it works?",
     answer:
-      "You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "We calculate the results according to your personal information, credit history and credit policy of banks.",
   },
   {
-    question: "How do you make holy water?",
+    question: "Is your database up to date?",
     answer:
-      "You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "We continuously update our database every day, and you can rely on the information you find in our application",
   },
   {
-    question: "How do you make holy water?",
+    question: "Is my personal data safe?",
     answer:
-      "You boil the hell out of it. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas cupiditate laboriosam fugiat.",
+      "We save data only by your consent. We do not share your data with third parties.",
   },
 ];
 
@@ -287,23 +284,22 @@ export default function Home() {
             <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
               <div className="sm:text-center lg:text-left">
                 <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-                  <span className="block xl:inline">Data to enrich your</span>{" "}
+                  <span className="block xl:inline">Save your time with</span>{" "}
                   <span className="block text-red-800 xl:inline">
-                    online business
+                    iFin application
                   </span>
                 </h1>
                 <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                  Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
-                  qui lorem cupidatat commodo. Elit sunt amet fugiat veniam
-                  occaecat fugiat aliqua.
+                  Get the list of all suitable credits for you online in 2
+                  minutes
                 </p>
                 <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                   <div className="rounded-md shadow">
-                    <Link href="/step-1">
-                      <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-800 hover:bg-red-700  md:py-4 md:text-lg md:px-10">
-                        Get started
-                      </a>
-                    </Link>
+                    {/* <Link href="/step-1"> */}
+                    <a className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-red-800 hover:bg-red-700  md:py-4 md:text-lg md:px-10 cursor-pointer">
+                      Get started
+                    </a>
+                    {/* </Link> */}
                   </div>
                 </div>
               </div>
@@ -313,7 +309,7 @@ export default function Home() {
         <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
           <img
             className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-            src="https://www.denofgeek.com/wp-content/uploads/2021/09/money-heist-ending.jpeg?fit=1200%2C675"
+            src="https://www.debt.org/wp-content/uploads/2019/10/Raise-Credit-Score-Over-800.jpg"
             alt=""
           />
         </div>
@@ -321,15 +317,15 @@ export default function Home() {
       <div className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:text-center">
-            <h2 className="text-base text-red-600 font-semibold tracking-wide uppercase">
-              Transactions
+            <h2 className="text-base text-red-600 font-semibold tracking-wide">
+              iFin
             </h2>
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
-              A better way to send money
+              A better way to save your time and nerves
             </p>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
-              Lorem ipsum dolor sit amet consect adipisicing elit. Possimus
-              magnam voluptatum cupiditate veritatis in accusamus quisquam.
+              Our application provides you with reliable information with fully
+              detailed explanation
             </p>
           </div>
 
@@ -494,7 +490,7 @@ export default function Home() {
           </div>
           <div className="mt-8 md:mt-0 md:order-1">
             <p className="text-center text-base text-gray-400">
-              &copy; 2020 Workflow, Inc. All rights reserved.
+              &copy; 2022 Bella Ciao team. All rights reserved.
             </p>
           </div>
         </div>

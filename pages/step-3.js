@@ -35,7 +35,7 @@ export default function Step3() {
             <h3 className="text-lg mb-2 flex justify-between">
               <span>Кредитный скоринг:</span>
               <span className="font-semibold">
-                <span className="text-green-600">375</span> (C1)
+                <span className="text-green-600">371</span> (B1)
               </span>
             </h3>
             <div className="h-4 bg-gradient-to-r from-red-600 via-yellow-400 to-green-400 overflow-hidden relative">
@@ -44,7 +44,7 @@ export default function Step3() {
             <div className="flex justify-between relative">
               <span>0</span>
               <span>500</span>
-              <span className="absolute left-3/4">375</span>
+              <span className="absolute left-3/4">371</span>
             </div>
           </div>
           <div className="mb-4 px-4 py-2">
